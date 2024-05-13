@@ -16,7 +16,7 @@ public class AmazonHomePage {
 	private By productNameTxt = By.id("twotabsearchtextbox");
 	private By prodCatagoryDrop = By.id("searchDropdownBox");
 	private By searchButton = By.id("nav-search-submit-button");
-	private By searchResult = By.xpath("(//div[@class='a-section a-spacing-small a-spacing-top-small']/span)[1]");
+	private By searchResult = By.xpath("(//div[@class='a-section a-spacing-small a-spacing-top-small']/span)[0]");
 	
 	public AmazonHomePage(WebDriver driver) {
 		this.driver = driver;
